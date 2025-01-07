@@ -1,5 +1,5 @@
-name: "Bug Report"
-description: "Report a bug or unexpected behavior in the project."
+name: Bug Report
+description: Report a bug or unexpected behavior in the project.
 labels: "bug"
 body:
   - type: markdown
@@ -33,8 +33,8 @@ body:
       description: Provide a list of steps to reproduce the issue.
       placeholder: |
         1. Open the VAAC-D interface.
-        2. Start a 
-        3. 
+        2. Start a run.
+        3. Attempt to abort the run.
     validations:
       required: true
 
@@ -43,7 +43,7 @@ body:
     attributes:
       label: Expected Behavior
       description: Describe what you expected to happen instead.
-      placeholder: "The run should ..."
+      placeholder: "The run should abort cleanly and return to the idle state."
     validations:
       required: true
 
@@ -56,7 +56,7 @@ body:
     validations:
       required: true
 
-- type: textarea
+  - type: textarea
     id: logs_or_screenshots
     attributes:
       label: Logs or Screenshots
