@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug! Please complete the form below to help understand the issue better.
+        Thanks for taking the time to report a bug! Please complete the form below.
         Fields marked with a `*` are required.
 
   - type: textarea
@@ -13,7 +13,6 @@ body:
     attributes:
       label: Bug Description
       description: Describe the issue in detail. Include what you were doing when the bug occurred and any other relevant context.
-      placeholder: "When I try to abort the run, ..."
       render: markdown
     validations:
       required: true
@@ -23,10 +22,6 @@ body:
     attributes:
       label: Steps to Reproduce
       description: Provide a list of steps to reproduce the issue.
-      placeholder: |
-        1. Open the VAAC-D interface.
-        2. Start a run.
-        3. Attempt to abort the run.
     validations:
       required: true
 
@@ -35,7 +30,6 @@ body:
     attributes:
       label: Expected Behavior
       description: Describe what you expected to happen instead.
-      placeholder: "The run should abort cleanly and return to the idle state."
     validations:
       required: true
 
@@ -44,7 +38,6 @@ body:
     attributes:
       label: Actual Behavior
       description: Describe what actually happened.
-      placeholder: "The following error message was shown..."
     validations:
       required: true
 
@@ -53,7 +46,6 @@ body:
     attributes:
       label: Logs or Screenshots
       description: Attach any relevant logs or screenshots to help diagnose the issue.
-      placeholder: "Drag and drop a screenshot or copy-paste log snippets here."
 
   - type: dropdown
     id: priority
