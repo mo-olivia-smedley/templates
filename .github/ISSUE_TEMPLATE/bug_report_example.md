@@ -1,5 +1,5 @@
 ---
-name: Bug report example
+name: TEST Bug report example
 about: Create a report to help us improve
 title: ''
 labels: bug
