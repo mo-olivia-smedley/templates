@@ -38,3 +38,15 @@ body:
       description: Provide any other details, logs, screenshots, or references that might help clarify your question.
     validations:
       required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Indicate the priority of this bug.
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
