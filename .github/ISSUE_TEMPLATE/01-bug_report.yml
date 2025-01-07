@@ -8,15 +8,6 @@ body:
         Thanks for taking the time to report a bug! Please complete the form below to help understand the issue better.
         Fields marked with a `*` are required.
 
-  - type: input
-    id: title
-    attributes:
-      label: Bug Title
-      description: Provide a clear and concise title for the bug.
-      placeholder: "Abort run behaviour"
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
