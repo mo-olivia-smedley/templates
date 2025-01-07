@@ -1,2 +1,5 @@
-# templates
-testing issue and PR templates
+# Issue Templates
+
+Repo for testing issue and PR templates
+
+
