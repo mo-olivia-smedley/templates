@@ -1,0 +1,40 @@
+name: Question/Help Request
+description: Ask a question or request help regarding the project.
+labels: "question"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question or need help? Please fill out the form below to provide details.
+
+  - type: textarea
+    id: question_details
+    attributes:
+      label: Question Details
+      description: Explain your question or issue in detail. Include any relevant background information or context.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_tried
+    attributes:
+      label: Steps Tried
+      description: List any steps you’ve already taken to resolve the issue or answer your question.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_outcome
+    attributes:
+      label: Expected Outcome
+      description: Describe what you are trying to achieve or what kind of help you need.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Provide any other details, logs, screenshots, or references that might help clarify your question.
+    validations:
+      required: false
