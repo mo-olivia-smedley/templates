@@ -1,4 +1,4 @@
-name: Issue Form Example
+name: TEST Issue Form Example
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
