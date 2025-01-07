@@ -1,4 +1,4 @@
-name: Question/Help Request
+name: "❓ Question/Help Request"
 description: Ask a question or request help regarding the project.
 labels: "question"
 body:
