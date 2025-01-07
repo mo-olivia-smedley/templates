@@ -1,0 +1,44 @@
+name: Documentation Update
+description: Suggest changes or improvements to the project documentation.
+labels: "documentation"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a documentation update! Please complete the form below to help improve the documentation quality.
+
+  - type: textarea
+    id: section_to_update
+    attributes:
+      label: Section to Update
+      description: Specify the section or page of the documentation that needs improvement.
+      placeholder: "Installation Guide > Prerequisites"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Description of the Issue
+      description: Describe what is wrong or missing in the current documentation.
+      placeholder: "The setup instructions lack details about installing dependencies."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_changes
+    attributes:
+      label: Suggested Changes
+      description: Provide your suggested updates or corrections.
+      placeholder: "Add a step to install ..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Include any relevant links, screenshots, or examples that can help clarify the changes.
+      placeholder: "Refer to ... for a detailed example."
+    validations:
+      required: false
