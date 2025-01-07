@@ -27,7 +27,7 @@ body:
     id: potential_solutions
     attributes:
       label: Potential Solutions
-      description: Share any ideas for implementing this feature, if you have any.
+      description: Share any ideas for implementing this feature, if you have any. Include direction to relevant files.
     validations:
       required: false
 
@@ -38,3 +38,11 @@ body:
       description: Include any other context, screenshots, or references that might be helpful.
     validations:
       required: false
+
+  - type: input
+    id: completion_date
+    attributes:
+      label: Completion date
+      description: "When does this feature need to be added by? This can be a rough estimate/description."
+    validations:
+      required: true
